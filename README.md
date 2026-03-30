@@ -12,10 +12,10 @@ npx turboclean ./projects --exclude app1,app2   # exclude folders
 
 ## Options
 
-| Option | Description |
-|---|---|
-| `[path]` | Root directory to scan (default: cwd) |
-| `--exclude a,b,...` | Comma-separated folder names to skip |
+| Option              | Description                           |
+| ------------------- | ------------------------------------- |
+| `[path]`            | Root directory to scan (default: cwd) |
+| `--exclude a,b,...` | Comma-separated folder names to skip  |
 
 ## Output
 
@@ -36,4 +36,3 @@ Done. Removed 2 directories, freed 454.53 MB.
 npm install -g turboclean
 turboclean ./projects --exclude legacy
 ```
-# turboclean
